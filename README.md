@@ -115,11 +115,11 @@ Supported command examples include:
 The system periodically sends device data to access-control endpoints and fetches the latest permission list.
 
 Main endpoints used by the code:
-- `https://erp.neways3.com/api/access-device/information-access/update-device-status`
-- `https://erp.neways3.com/api/access-device/information-access/get-permission`
+- `https://yourdomain/api/access-device/information-access/update-device-status`
+- `https://yourdomain/api/access-device/information-access/get-permission`
 - Fallback endpoints:
-  - `https://cloud.neways3.com/api/access-device/information-access/update-device-status`
-  - `https://cloud.neways3.com/api/access-device/information-access/get-permission`
+  - `https://yourdomain/api/access-device/information-access/update-device-status`
+  - `https://yourdomain/api/access-device/information-access/get-permission`
 
 The request payload includes:
 - `api_secret`
